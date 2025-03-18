@@ -1,10 +1,14 @@
 # dump2key
-Идея и шаги изложены [здесь ](https://www.securitylab.ru/blog/personal/reply-to-all/155893.php)
+Для ключей Esmart и Jacarta.
 
-Установить библиотеку [smartcard](https://github.com/ea/smartcard-sniffer) 
+Идея и шаги изложены [здесь ](https://www.securitylab.ru/blog/personal/reply-to-all/155893.php).
+
+Установить библиотеку [smartcard](https://github.com/ea/smartcard-sniffer) и получить дамп.
 
 Дамп передать в программу.
 
 Первые найденные ключевые данные будут сохранены в файлы.
 
 Последующие данные будут проигнорированы.
+
+Программа создана для пониимания логики APDU. Допускается некоммерческое использование в образовательных целях.
